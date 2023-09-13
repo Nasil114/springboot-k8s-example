@@ -11,7 +11,7 @@ public class SpringbootK8sDemoApplication {
 
 	@GetMapping("/message")
 	public String displayMessage(){
-		return "u are my bestfriend , love u so much!!";
+		return "HELLO TEAMS....!!";
 	}
 
 	public static void main(String[] args) {
