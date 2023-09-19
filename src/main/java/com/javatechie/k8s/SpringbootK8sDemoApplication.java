@@ -11,7 +11,16 @@ public class SpringbootK8sDemoApplication {
 
 	@GetMapping("/message")
 	public String displayMessage(){
-		return "HELLO TEAMS....!!";
+		return "HELLO TEAMS..message1!!";
+	}
+
+	@GetMapping("/message1")
+	public String displayMessage(){
+		return "HELLO TEAMS..message2!!";
+	}
+	@GetMapping("/message2")
+	public String displayMessage(){
+		return "HELLO TEAMS..message3!!";
 	}
 
 	public static void main(String[] args) {
